@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 94
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 31
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 32
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,7 +443,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d4fbffff
+      m_ExpandedIDs: 32fbffff322c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -498,9 +498,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.8459048, y: 2.4210956, z: 9.669289}
+    m_Target: {x: 0.90845335, y: -4.554071, z: 9.504907}
     speed: 2
-    m_Value: {x: -3.8459048, y: 2.4210956, z: 9.669289}
+    m_Value: {x: 0.90845335, y: -4.554071, z: 9.504907}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -528,13 +528,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.029735733, y: -0.1312627, z: 0.0039389813, w: 0.9908938}
+    m_Target: {x: 0.2200697, y: 0.031012267, z: -0.007000179, w: 0.974966}
     speed: 2
-    m_Value: {x: 0.029735733, y: -0.1312627, z: 0.0039389813, w: 0.9908938}
+    m_Value: {x: 0.2200697, y: 0.031012267, z: -0.007000179, w: 0.974966}
   m_Size:
-    m_Target: 18.15408
+    m_Target: 20.507908
     speed: 2
-    m_Value: 18.15408
+    m_Value: 20.507908
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -616,14 +616,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jdavies9505\Documents\HorrorGame\HorrorGame
+  m_LastProjectPath: 'C:\Users\vsmith1868\Documents\Game Project #1\HorrorGame\HorrorGame'
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a090000
-    m_LastClickedID: 2394
-    m_ExpandedIDs: 000000005a09000000ca9a3b
+    m_SelectedIDs: 022a0000
+    m_LastClickedID: 10754
+    m_ExpandedIDs: 00000000022a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -651,7 +651,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a090000
+    m_ExpandedIDs: 00000000022a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
