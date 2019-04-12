@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 103
+  controlID: 66
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 947
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 116
+  controlID: 67
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 589
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 117
+  controlID: 119
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -385,9 +385,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 20fbffff
-      m_LastClickedID: -1248
-      m_ExpandedIDs: d4fbffff
+      m_SelectedIDs: 00ecffff
+      m_LastClickedID: -5120
+      m_ExpandedIDs: c8f1ffff6cf4ffffd4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -442,9 +442,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: 0}
+    m_Target: {x: -6.568078, y: 7.6815777, z: -12.120865}
     speed: 2
-    m_Value: {x: 0, y: 1, z: 0}
+    m_Value: {x: -6.568078, y: 7.6815777, z: -12.120865}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -472,13 +472,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.1728569, y: -0.32939515, z: 0.061458416, w: -0.9262141}
+    m_Target: {x: -0.1870623, y: -0.15225373, z: 0.029345663, w: -0.9700337}
     speed: 2
-    m_Value: {x: -0.17285427, y: -0.32939017, z: 0.061457485, w: -0.9262001}
+    m_Value: {x: -0.1870623, y: -0.15225373, z: 0.029345663, w: -0.9700337}
   m_Size:
-    m_Target: 7.4006796
+    m_Target: 23.263397
     speed: 2
-    m_Value: 7.4006796
+    m_Value: 23.263397
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -554,20 +554,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Project Files/Models
+    - Assets/Project Files/Scenes/Maps
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Project Files/Models
+  - Assets/Project Files/Scenes/Maps
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\vsmith1868\Documents\HorrorGame\HorrorGame
+  m_LastProjectPath: C:\Users\kagan\Documents\HorrorGame\HorrorGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a0d0000
-    m_LastClickedID: 3338
-    m_ExpandedIDs: 00000000ee0a00000a0d0000c40e00007e0f0000cc160000e616000000ca9a3b
+    m_SelectedIDs: ca1a0000
+    m_LastClickedID: 6858
+    m_ExpandedIDs: 00000000ee0a0000700d00004e0f0000a80f00008e1000005a1900007e190000b6190000da40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,7 +595,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee0a00000a0d00009c0d0000c40e0000e40e0000560f00007e0f0000ee0f0000ba1000005e14000008150000cc160000e6160000
+    m_ExpandedIDs: 00000000ee0a00004e0f0000a80f00008e1000005a1900007e190000b6190000da400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -649,7 +649,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 235
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
