@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Project Files/Scenes/Maps/DemoMap.unity
+- path: Assets/Project Files/Scenes/DemoMap.unity
   isLoaded: 1
   isActive: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: edc0feddce7dd014bbd5d91e51ab72cb
+guid: e2961394756bfe94b909f63a2e5e4797
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -63,7 +63,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 10
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
