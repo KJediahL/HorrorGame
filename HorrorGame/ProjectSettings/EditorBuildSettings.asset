@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Project Files/Scenes/Sewers.unity
+    guid: 14deb721486c329428212b08f7f954a2
+  - enabled: 1
+    path: Assets/Project Files/Scenes/Catacombs.unity
+    guid: bd3234312522c6942b973738f95f943f
+  - enabled: 1
+    path: Assets/Project Files/Scenes/Hell.unity
+    guid: 5c7c60dd9f0b2b04aa849cbc68a958b0
   m_configObjects: {}
