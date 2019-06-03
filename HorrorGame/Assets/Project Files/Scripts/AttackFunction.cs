@@ -22,7 +22,6 @@ public class AttackFunction : MonoBehaviour
             if (Physics.Raycast(transform.position, transform.forward, out hit))
             {
                 Debug.DrawRay(transform.position, transform.forward);
-                Debug.Log(hit.collider.tag);
                 if (hit.collider.tag == "Enemy")
                 {
                     Debug.Log("hitenemy");

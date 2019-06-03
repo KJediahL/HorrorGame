@@ -24,7 +24,7 @@ public class EnemyCollision : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("test");
+        
         if (other.tag == "Player")
         {
             GameObject.Find("Player").GetComponent<Character>().health -= 16;
@@ -38,7 +38,7 @@ public class EnemyCollision : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        Debug.Log("test");
+        
         if (other.tag == "Player")
         {
             if (counter > 49)

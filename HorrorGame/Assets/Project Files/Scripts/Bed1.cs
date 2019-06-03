@@ -17,7 +17,6 @@ public class Bed1 : MonoBehaviour
     {
         if (onBed == true)
         {
-            Debug.Log("test2");
             control.enabled = false;
             SceneManager.LoadScene("Catacombs");
 
@@ -32,7 +31,6 @@ public class Bed1 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("test1");
             onBed = true;
 
         }
@@ -42,7 +40,6 @@ public class Bed1 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("test3");
             onBed = false;
 
         }
