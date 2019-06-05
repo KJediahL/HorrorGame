@@ -18,7 +18,7 @@ public class Bed1 : MonoBehaviour
         if (onBed == true)
         {
             control.enabled = false;
-            SceneManager.LoadScene("Catacombs");
+            SceneManager.LoadScene("KagansCave");
 
 
             control.enabled = true;

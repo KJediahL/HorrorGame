@@ -15,6 +15,6 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        /// Healthbar.text = health.ToString();
+        Healthbar.text = health.ToString();
     }
 }
