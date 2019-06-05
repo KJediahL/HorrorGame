@@ -21,8 +21,8 @@ public class Inventory : MonoBehaviour
         {
             slot[i] = ItemPanels.transform.GetChild(i).gameObject;
 
-            if (slot[i].GetComponent<Slot>().item == null)
-                slot[i].GetComponent<Slot>().empty = true;
+            //if (slot[i].GetComponent<Slot>().item == null)
+            //     slot[i].GetComponent<Slot>().empty = true;
 
         }
     }

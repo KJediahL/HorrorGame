@@ -15,6 +15,8 @@ public class EnemyAI : MonoBehaviour
     public SphereCollider Collider;
     bool searching = false;
     RaycastHit hit;
+    bool alerted = false;
+    float soundFXcounter = 19;
 
     void Awake()
     {
@@ -28,6 +30,13 @@ public class EnemyAI : MonoBehaviour
     {
         if (searching == true)
         {
+
+            soundFXcounter -= 1;
+            if(soundFXcounter <= 0 && alerted == true)
+            {
+                soundFXcounter = Random.Range(10.0f, 500.0f);
+                alertSoundEffect.Play();
+            }
             Debug.Log("searching");
             enemy.LookAt(player);
             if (Physics.Raycast(transform.position, transform.forward, out hit))
@@ -35,9 +44,11 @@ public class EnemyAI : MonoBehaviour
                 Debug.Log("raycast sent");
                 if (hit.collider.tag == "Player")
                 {
-                        nav.SetDestination(player.position);
-                        personalLastSighting = player.localPosition;
-            
+
+                    alerted = true;
+                    nav.SetDestination(player.position);
+                    personalLastSighting = player.localPosition;
+                       
                 }
             }
             else
@@ -57,7 +68,7 @@ public class EnemyAI : MonoBehaviour
             /*Debug.Log(other);*/
             if (other.tag == "Player")
             {
-                alertSoundEffect.Play();
+               
                 Debug.Log("playerenter");
                 searching = true;
             }

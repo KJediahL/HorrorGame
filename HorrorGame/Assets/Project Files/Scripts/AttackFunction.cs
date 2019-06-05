@@ -7,6 +7,7 @@ public class AttackFunction : MonoBehaviour
     public bool fired = false;
     RaycastHit hit;
     string enemyname;
+    public AudioSource gunshot;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class AttackFunction : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && fired == false)
         {
-
+            gunshot.Play();
             if (Physics.Raycast(transform.position, transform.forward, out hit))
             {
                 Debug.DrawRay(transform.position, transform.forward);
@@ -26,7 +27,7 @@ public class AttackFunction : MonoBehaviour
                 {
                     Debug.Log("hitenemy");
                     enemyname = hit.collider.name;
-                    GameObject.Find(enemyname).GetComponent<EnemyCollision>().health -= 1;
+                    GameObject.Find(enemyname).GetComponent<EnemyHealth>().health -= 1;
                 }
             }
 

@@ -5,21 +5,18 @@ using UnityEngine;
 public class EnemyCollision : MonoBehaviour
 {
     float counter = 0;
-
-    public float health = 3;
+    
     public GameObject Enemy;
-
-    private void FixedUpdate()
+    public AudioSource playerhit;
+    float soundFXcounter = 0;
+   
+    void FixedUpdate()
     {
-        if (health <= 0)
+        Debug.Log(soundFXcounter);
+        if(soundFXcounter != 0)
         {
-            Destroy(Enemy);
+            soundFXcounter -= 1;
         }
-    }
-
-    private void Start()
-    {
-
     }
 
     void OnTriggerEnter(Collider other)
@@ -28,6 +25,14 @@ public class EnemyCollision : MonoBehaviour
         if (other.tag == "Player")
         {
             GameObject.Find("Player").GetComponent<Character>().health -= 16;
+            if(soundFXcounter == 0)
+            {
+                playerhit.Play();
+                soundFXcounter = 50;
+            }
+
+
+            //Debug.Log(GameObject.Find("Player").GetComponent<Character>().health);
         }
     }
 
@@ -44,6 +49,9 @@ public class EnemyCollision : MonoBehaviour
             if (counter > 49)
             {
                 GameObject.Find("Player").GetComponent<Character>().health -= 16;
+               // Debug.Log(GameObject.Find("Player").GetComponent<Character>().health);
+            
+
                 counter = 0;
             }
             else
